@@ -9,25 +9,41 @@
   {
     "context": "VimControl && !(vim_mode == insert)",
     "bindings": {
+      //rebind macro binds
       "q": null,
       "m": "vim::ToggleRecord",
 
+      //navigate between panes
       "space w h": "workspace::ActivatePaneLeft",
       "space w j": "workspace::ActivatePaneDown",
       "space w k": "workspace::ActivatePaneUp",
       "space w l": "workspace::ActivatePaneRight",
       "space w q": "pane::CloseActiveItem",
 
+      //split pane settings
       "space s h": "pane::SplitLeft",
       "space s j": "pane::SplitDown",
       "space s k": "pane::SplitUp",
       "space s l": "pane::SplitRight",
 
+      //fuzzy finder
       "space f f": "file_finder::Toggle",
 
+      //terminal keybinds
       "alt-t": "terminal_panel::Toggle",
       "space t n": "workspace::NewTerminal",
       "space a": "agent::ToggleFocus",
+
+      //file manager binds
+      "space e": "project_panel::ToggleFocus",
+    },
+  },
+
+  //file manager binds from within file manager
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "space e": "workspace::CloseActiveDock",
     },
   },
 
@@ -41,6 +57,8 @@
       "space l": "vim::ResizePaneRight",
     },
   },
+
+  //close pane(window buffer) binds
   {
     "context": "VimControl && !(vim_mode == insert) && Pane",
     "bindings": {
@@ -48,12 +66,16 @@
       "space w q": "pane::CloseActiveItem",
     },
   },
+
+  //close agent tab from within Agent Message box
   {
     "context": "VimControl && !(vim_mode == insert)",
     "bindings": {
       "space a": "workspace::CloseActiveDock",
     },
   },
+
+  //terminal binds from within terminal
   {
     "context": "Terminal",
     "bindings": {
