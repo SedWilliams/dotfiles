@@ -1,0 +1,64 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "VimControl && !(vim_mode == insert)",
+    "bindings": {
+      "q": null,
+      "m": "vim::ToggleRecord",
+
+      "space w h": "workspace::ActivatePaneLeft",
+      "space w j": "workspace::ActivatePaneDown",
+      "space w k": "workspace::ActivatePaneUp",
+      "space w l": "workspace::ActivatePaneRight",
+      "space w q": "pane::CloseActiveItem",
+
+      "space s h": "pane::SplitLeft",
+      "space s j": "pane::SplitDown",
+      "space s k": "pane::SplitUp",
+      "space s l": "pane::SplitRight",
+
+      "space f f": "file_finder::Toggle",
+
+      "alt-t": "terminal_panel::Toggle",
+      "space t n": "workspace::NewTerminal",
+      "space a": "agent::ToggleFocus",
+    },
+  },
+
+  // resize window split
+  {
+    "context": "VimControl && !(vim_mode == insert) && Pane",
+    "bindings": {
+      "space h": "vim::ResizePaneLeft",
+      "space j": "vim::ResizePaneDown",
+      "space k": "vim::ResizePaneUp",
+      "space l": "vim::ResizePaneRight",
+    },
+  },
+  {
+    "context": "VimControl && !(vim_mode == insert) && Pane",
+    "bindings": {
+      "q": null,
+      "space w q": "pane::CloseActiveItem",
+    },
+  },
+  {
+    "context": "VimControl && !(vim_mode == insert)",
+    "bindings": {
+      "space a": "workspace::CloseActiveDock",
+    },
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "alt-q": "pane::CloseActiveItem",
+      "alt-t": "workspace::NewTerminal",
+    },
+  },
+]
