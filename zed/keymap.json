@@ -43,6 +43,19 @@
   {
     "context": "ProjectPanel",
     "bindings": {
+      //clear enter keybind to prevent opening files on enter
+      "enter": null,
+
+      //custom open file keybinds
+      "enter": "project_panel::OpenSplitVertical",
+
+      //binds for file actions
+      "r": "project_panel::Rename",
+      "D": "project_panel::Delete",
+      "f": "project_panel::NewDirectory",
+      "d": "project_panel::NewDirectory",
+
+      //close file manager
       "space e": "workspace::CloseActiveDock",
     },
   },
