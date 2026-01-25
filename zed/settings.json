@@ -7,6 +7,17 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "inlay_hints": {
+    "show_background": false,
+    "enabled": true
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "buffer_line_height": "comfortable",
+  "buffer_font_family": ".ZedMono",
   "wsl_connections": [
     {
       "distro_name": "Ubuntu",
@@ -27,7 +38,7 @@
         "context_servers": {}
       }
     },
-    "default_profile": "write",
+    "default_profile": "code",
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-opus-4.5"
@@ -47,7 +58,7 @@
     "trust_all_worktrees": true,
   },
   "vim_mode": true,
-  "ui_font_size": 16,
-  "buffer_font_size": 15,
-  "theme": "One Black",
+  "ui_font_size": 17.0,
+  "buffer_font_size": 18.0,
+  "theme": "Kanagawa Dragon",
 }

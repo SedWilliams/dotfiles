@@ -50,7 +50,7 @@
       "enter": "project_panel::OpenSplitVertical",
 
       //binds for file actions
-      "r": "project_panel::Rename",
+      "R": "project_panel::Rename",
       "D": "project_panel::Delete",
       "f": "project_panel::NewDirectory",
       "d": "project_panel::NewDirectory",
@@ -93,7 +93,7 @@
     "context": "Terminal",
     "bindings": {
       "alt-q": "pane::CloseActiveItem",
-      "alt-t": "workspace::NewTerminal",
+      "alt-t": "terminal_panel::Toggle",
     },
   },
 ]
