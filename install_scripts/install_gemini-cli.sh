@@ -1,10 +1,16 @@
 
 #!/bin/bash
 
-echo "Installing gemini-cli..."
+echo "Checking to see if gemini-cli is installed..."
 
-$(npm install -g @google/gemini-cli)
+INSTALL_PATH=$(command -v gemini)
 
-echo "gemini-cli installation complete."
+if [[ -z "$INSTALL_PATH" ]]; then
+  npm install -g @google/gemini-cli
+  echo "gemini-cli installation complete."
+else
+  echo "gemini-cli is already installed..."
+  echo $INSTALL_PATH
+fi
 
 
