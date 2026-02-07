@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Exit immediately if a command exits with a non-zero status.
-set -e
+# install node via nvm
 
 echo "Starting Node.js installation via nvm..."
 
@@ -32,7 +31,4 @@ nvm install "$NODE_VERSION"
 nvm alias default "$NODE_VERSION"
 echo "Node.js version $NODE_VERSION installed and set as default."
 echo "Installation complete."
-
-# Note: nvm requires a new shell session to be fully active.
-echo "Please close and reopen your terminal or run 'source ~/.bashrc' (or ~/.zshrc) to start using Node.js."
 
