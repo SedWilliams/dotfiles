@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "coc-rust-analyzer": ">=0.86.0",
-    "coc-clangd": ">=0.32.0"
-  }
-}
