@@ -8,5 +8,6 @@ else
     echo "Installing Neovim..."
     bob install latest
     echo "Neovim installation complete."
+echo "alias nvim='/home/tre3iii/.local/share/bob/v0.11.6/bin/nvim'" >> $HOME/.bashrc
 fi
 
