@@ -11,7 +11,7 @@ else
     # Install nvm
     echo "Installing nvm..."
     # Use the official install script via curl. Check the nvm repo for the latest version.
-    curl -o- https://raw.githubusercontent.com | bash
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
     # Source nvm so it's available in the current session
     export NVM_DIR="$HOME/.nvm"
