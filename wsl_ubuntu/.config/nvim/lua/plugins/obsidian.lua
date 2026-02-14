@@ -20,14 +20,18 @@ return {
   opts = {
     workspaces = {
       {
-        name = "personal",
-        path = "~/vaults/personal",
-      },
-      {
         name = "work",
-        path = "~/vaults/work",
+        path = function()
+          return assert(vim.fn.getcwd())
+        end,
       },
     },
+    completion = {
+      nvim_cmp = false,
+      min_chars = 2,
+    },
+    -- Disable frontmatter management if not using Obsidian.
+    disable_frontmatter = true,
 
     -- see below for full list of options 👇
   },
