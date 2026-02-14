@@ -37,6 +37,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'dbeniamine/cheat.sh-vim'
 Plug 'scrooloose/syntastic'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
+Plug 'epwalsh/obsidian.nvim'
 call plug#end()
 
 " Colorscheme, must come after plug#end()
