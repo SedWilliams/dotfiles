@@ -35,6 +35,7 @@ nnoremap <leader>tp :tabprevious<Cr>
 nnoremap <leader>/ :Commentary<CR>
 
 " Copilot inline suggestions
+imap <silent><script><expr> <A-Space> copilot#Accept("\<CR>")<Nop>
 nnoremap <leader>cc :Copilot enable<CR>
 nnoremap <leader>cq :Copilot disable<CR>
 
