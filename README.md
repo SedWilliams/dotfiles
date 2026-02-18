@@ -3,3 +3,5 @@
 * [zed](./zed/)
 * [commands](./commands.md)
 * [(Custom) Bash Scripts](./bash_scripts/)
+
+test
