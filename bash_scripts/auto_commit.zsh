@@ -22,6 +22,13 @@ command_not_found_handler() {
 
     # Check if we're inside a git repository
     if git rev-parse --is-inside-work-tree &>/dev/null; then
+        # Require more than two words for a commit message
+        local word_count=(${=full_input})
+        if (( ${#word_count} <= 2 )); then
+            echo "zsh: command not found: $1"
+            return 127
+        fi
+
         echo "Commit message: \"$full_input\""
         echo -n "Push to remote? [Y/n] "
         read -r answer
