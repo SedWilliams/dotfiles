@@ -10,4 +10,4 @@ function lazygit() {
     echo "$PUSH_RES"
 }
 
-lazygit $1
+lazygit "$*"
