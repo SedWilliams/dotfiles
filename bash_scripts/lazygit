@@ -1,0 +1,13 @@
+#!/bin/bash
+
+function lazygit() {
+    ADD_RES=$(git add .)
+    COMMIT_RES=$(git commit -m "$1")
+    PUSH_RES=$(git push)
+
+    echo "$ADD_RES"
+    echo "$COMMIT_RES"
+    echo "$PUSH_RES"
+}
+
+lazygit --params
