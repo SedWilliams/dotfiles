@@ -14,7 +14,7 @@ Receipt Log:              ./src/assignment02PartB/log/Receipt-*-*.log
 Default University:       San Francisco State University                     
 Default Club:             San Francisco Giants                               
 ----------------------------------------------------------------------
-2026/02/16 04:05:18 [0031 ms] PM PST - Chat session started.
+2026/02/17 07:28:31 [0027 ms] PM PST - Chat session started.
 
 SF Giants: Welcome to the SAN FRANCISCO GIANTS!
 ----------------------------------------------------------------------
@@ -88,18 +88,15 @@ Buster Posey, 28: Thanks, Shedrick. Please confirm your order:
 
 SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF    
 SF                                                                                        SF       
-SF       @@@@@@@@ @@                         @@                                                   @@@@@  SF       
-SF          @@    @@                         @@                                                  @    @@ SF       
-SF          @@    @@@@@@     @@@@   @@@@@@   @@  @@     @@   @@   @@@@@   @@   @@             @       @@ SF       
-SF          @@    @@@  @@   @   @@  @@@  @@  @@ @@      @@   @@  @@   @@  @@   @@          @@@@       @@ SF       
-SF          @@    @@   @@       @@  @@   @@  @@@@        @@ @@   @@   @@  @@   @@       @@@@       @@@@  SF       
-SF          @@    @@   @@   @@@@@@  @@   @@  @@@@        @@ @@   @@   @@  @@   @@      @@             @@ SF       
-SF          @@    @@   @@  @@   @@  @@   @@  @@ @@        @@@@   @@   @@  @@   @@       @@@@          @@ SF       
-SF          @@    @@   @@  @@   @@  @@   @@  @@  @@       @@@    @@   @@  @@  @@@          @@@@  @    @@ SF       
-SF          @@    @@   @@   @@@@@@  @@   @@  @@   @@       @@     @@@@@    @@@@@@             @   @@@@@  SF       
-SF                                                         @@                                            SF       
-SF                                                        @@                                             SF       
-SF                                                       @@                                              SF       
+SF        @@@@@@ @@                   @@                                        @@@@@     SF       
+SF          @@   @@                   @@                                     @      @@    SF       
+SF          @@   @@@@@  @@@@@  @@@@@  @@  @@    @@  @@  @@@@  @@  @@      @@@       @@    SF       
+SF          @@   @@  @@     @@ @@  @@ @@ @@      @  @  @@  @@ @@  @@    @@@      @@@@     SF       
+SF          @@   @@  @@  @@@@@ @@  @@ @@@@       @@@@  @@  @@ @@  @@    @@@         @@    SF       
+SF          @@   @@  @@ @@  @@ @@  @@ @@ @@       @@   @@  @@ @@  @@      @@@       @@    SF       
+SF          @@   @@  @@ @@@@@@ @@  @@ @@  @@      @@    @@@@   @@@@@         @  @@@@@     SF       
+SF                                                @                                       SF       
+SF                                               @@                                       SF       
 SF                                                                                        SF       
 SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF    
 SF                                                                                        SF       
@@ -113,18 +110,15 @@ SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANT
 
 SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF    
 SF                                                                                        SF       
-SF       ######## ##                         ##                                                   #####  SF       
-SF          ##    ##                         ##                                                  #    ## SF       
-SF          ##    ######     ####   ######   ##  ##     ##   ##   #####   ##   ##             #       ## SF       
-SF          ##    ###  ##   #   ##  ###  ##  ## ##      ##   ##  ##   ##  ##   ##          ####       ## SF       
-SF          ##    ##   ##       ##  ##   ##  ####        ## ##   ##   ##  ##   ##       ####       ####  SF       
-SF          ##    ##   ##   ######  ##   ##  ####        ## ##   ##   ##  ##   ##      ##             ## SF       
-SF          ##    ##   ##  ##   ##  ##   ##  ## ##        ####   ##   ##  ##   ##       ####          ## SF       
-SF          ##    ##   ##  ##   ##  ##   ##  ##  ##       ###    ##   ##  ##  ###          ####  #    ## SF       
-SF          ##    ##   ##   ######  ##   ##  ##   ##       ##     #####    ######             #   #####  SF       
-SF                                                         ##                                            SF       
-SF                                                        ##                                             SF       
-SF                                                       ##                                              SF       
+SF        ###### ##                   ##                                        #####     SF       
+SF          ##   ##                   ##                                     #      ##    SF       
+SF          ##   #####  #####  #####  ##  ##    ##  ##  ####  ##  ##      ###       ##    SF       
+SF          ##   ##  ##     ## ##  ## ## ##      #  #  ##  ## ##  ##    ###      ####     SF       
+SF          ##   ##  ##  ##### ##  ## ####       ####  ##  ## ##  ##    ###         ##    SF       
+SF          ##   ##  ## ##  ## ##  ## ## ##       ##   ##  ## ##  ##      ###       ##    SF       
+SF          ##   ##  ## ###### ##  ## ##  ##      ##    ####   #####         #  #####     SF       
+SF                                                #                                       SF       
+SF                                               ##                                       SF       
 SF                                                                                        SF       
 SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF    
 SF                                                                                        SF       
@@ -138,18 +132,15 @@ SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANT
 
 SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF    
 SF                                                                                        SF       
-SF       $$$$$$$$ $$                         $$                                                   $$$$$  SF       
-SF          $$    $$                         $$                                                  $    $$ SF       
-SF          $$    $$$$$$     $$$$   $$$$$$   $$  $$     $$   $$   $$$$$   $$   $$             $       $$ SF       
-SF          $$    $$$  $$   $   $$  $$$  $$  $$ $$      $$   $$  $$   $$  $$   $$          $$$$       $$ SF       
-SF          $$    $$   $$       $$  $$   $$  $$$$        $$ $$   $$   $$  $$   $$       $$$$       $$$$  SF       
-SF          $$    $$   $$   $$$$$$  $$   $$  $$$$        $$ $$   $$   $$  $$   $$      $$             $$ SF       
-SF          $$    $$   $$  $$   $$  $$   $$  $$ $$        $$$$   $$   $$  $$   $$       $$$$          $$ SF       
-SF          $$    $$   $$  $$   $$  $$   $$  $$  $$       $$$    $$   $$  $$  $$$          $$$$  $    $$ SF       
-SF          $$    $$   $$   $$$$$$  $$   $$  $$   $$       $$     $$$$$    $$$$$$             $   $$$$$  SF       
-SF                                                         $$                                            SF       
-SF                                                        $$                                             SF       
-SF                                                       $$                                              SF       
+SF        $$$$$$ $$                   $$                                        $$$$$     SF       
+SF          $$   $$                   $$                                     $      $$    SF       
+SF          $$   $$$$$  $$$$$  $$$$$  $$  $$    $$  $$  $$$$  $$  $$      $$$       $$    SF       
+SF          $$   $$  $$     $$ $$  $$ $$ $$      $  $  $$  $$ $$  $$    $$$      $$$$     SF       
+SF          $$   $$  $$  $$$$$ $$  $$ $$$$       $$$$  $$  $$ $$  $$    $$$         $$    SF       
+SF          $$   $$  $$ $$  $$ $$  $$ $$ $$       $$   $$  $$ $$  $$      $$$       $$    SF       
+SF          $$   $$  $$ $$$$$$ $$  $$ $$  $$      $$    $$$$   $$$$$         $  $$$$$     SF       
+SF                                                $                                       SF       
+SF                                               $$                                       SF       
 SF                                                                                        SF       
 SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF GIANTS - - - - SF    
 SF                                                                                        SF       
@@ -166,10 +157,22 @@ Buster Posey, 28: Thank you again, Shedrick. See you at your graduation ceremony
 
 SF Giants: *** FREE TICKETS to SF GIANTS Games *** _ 1 miss allowed _
 SF Giants: Which type of class has 'protected' constructors?
-Shedrick Williams: sealed
-SF Giants: Incorrect!
-SF Giants: What type of method did Java 8 add to 'interface'?
 Shedrick Williams: abstract
-SF Giants: Incorrect!
-SF Giants: Sorry, you missed too many. Better luck next time!
-2026/02/16 04:05:42 [23784 ms] PM PST - Chat session ended.
+SF Giants: Correct!
+SF Giants: What type of method did Java 8 add to 'interface'?
+Shedrick Williams: default
+SF Giants: Correct!
+SF Giants: What new keyword did Java 13 add to 'switch' statement?
+Shedrick Williams: yield
+SF Giants: Correct!
+SF Giants: In Java 15, what keyword pairs with 'sealed'?
+Shedrick Williams: permits
+SF Giants: Correct!
+SF Giants: Giants in Spanish?
+Shedrick Williams: Gigantes
+SF Giants: Correct!
+SF Giants: Take me out to the...?
+Shedrick Williams: Ball Game
+SF Giants: Correct!
+*** Congrats! You won FREE TICKETS to SF GIANTS Games ***
+2026/02/17 07:28:31 [0211 ms] PM PST - Chat session ended.

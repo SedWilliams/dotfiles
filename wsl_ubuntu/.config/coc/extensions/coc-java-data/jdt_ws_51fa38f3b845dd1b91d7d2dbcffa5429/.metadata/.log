@@ -10662,3 +10662,120 @@ Command-line arguments:  -data /home/tre3iii/dotfiles/wsl_ubuntu/.config/coc/ext
 
 !ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-17 02:01:13.607
 !MESSAGE Validated 1. Took 14 ms
+!SESSION 2026-02-20 21:48:32.906 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=23.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -data /home/tre3iii/dotfiles/wsl_ubuntu/.config/coc/extensions/coc-java-data/jdt_ws_51fa38f3b845dd1b91d7d2dbcffa5429
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-02-20 21:48:35.090
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:36.001
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:36.071
+!MESSAGE Started org.eclipse.buildship.core 45ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:36.071
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:36.352
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:36.353
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:36.355
+!MESSAGE Initializing Java Language Server 1.45.0.202502271238
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:37.733
+!MESSAGE ProjectRegistryRefreshJob finished 1661ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:37.774
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:37.775
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:37.814
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:37.818
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:38.001
+!MESSAGE Workspace initialized in 184ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:38.009
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:38.361
+!MESSAGE >> Updating classpath for project assignment02_5611fdf4
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:38.379
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:38.380
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:38.382
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:38.500
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:39.163
+!MESSAGE begin problem for /ChatSession.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:39.166
+!MESSAGE 1 problems reported for /ChatSession.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 21:48:39.167
+!MESSAGE Validated 1. Took 65 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:17:10.632
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:17:11.110
+!MESSAGE begin problem for /Manager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:17:11.111
+!MESSAGE 0 problems reported for /Manager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:17:11.113
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:17:11.173
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:17:11.705
+!MESSAGE begin problem for /ChatSession.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:17:11.706
+!MESSAGE 1 problems reported for /ChatSession.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:17:11.729
+!MESSAGE begin problem for /Manager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:17:11.729
+!MESSAGE 0 problems reported for /Manager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:17:11.730
+!MESSAGE Validated 2. Took 106 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:34:22.941
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:34:23.349
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:34:23.857
+!MESSAGE begin problem for /ChatSession.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:34:23.858
+!MESSAGE 2 problems reported for /ChatSession.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-02-20 22:34:23.859
+!MESSAGE Validated 1. Took 59 ms
