@@ -1,5 +1,0 @@
-INDEX VERSION 1.134+/home/tre3iii/dotfiles/wsl_ubuntu/.config/coc/extensions/coc-java-data/jdt_ws_51fa38f3b845dd1b91d7d2dbcffa5429/.metadata/.plugins/org.eclipse.jdt.core
-900586112.index
-1958295525.index
-3842426239.index
-1865797976.index
