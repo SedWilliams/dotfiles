@@ -20,6 +20,7 @@ source ~/.config/nvim/keybinds/qflistPlug.lua
 set grepprg=rg\ --vimgrep
 set grepformat=%f:%l:%c:%m
 
+
 "Airline config
 "let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1

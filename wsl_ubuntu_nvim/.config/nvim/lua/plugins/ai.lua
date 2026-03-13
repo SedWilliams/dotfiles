@@ -15,6 +15,14 @@ return {
     opts = {
       temperature = 0.2,
       auto_insert_mode = false,
+      show_help = true,
+      highlight_selection = true,
+      hgihglight_headers = true,
+      clear_chat_on_new_prompt = false,
+      instruction_files = {
+        '.github/copilot-instructions.md',
+        'AGENTS.md',
+      },
       headers = {
           user = '👤 You',
           assistant = '🤖 AI Assistant',
@@ -24,8 +32,8 @@ return {
       window = {
           border = 'rounded',
           layout = 'float',
-          zindex = 0,
-          blend = 5,
+          zindex = 1,
+          blend = 10,
       },
     },
   },

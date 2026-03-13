@@ -3,6 +3,14 @@
     "coc.preferences.bracketEnterImprove": true,
     "signature.enable": true,
     "signature.target": "float",
+    "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+    "coc.preferences.formatOnSave": true,
+
+    "editor.codeActionsOnSave" : {
+        "source.organizeImports": true,
+    },
+
+    "colors.enable": true,
 
     "Lua.runtime.version": "LuaJIT",
     "Lua.diagnostics.globals": ["vim"],
