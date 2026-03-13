@@ -15,6 +15,7 @@ source ~/.config/nvim/keybinds/keybinds.vim
 "my custom quickfix plugin
 source ~/.config/nvim/keybinds/qflistPlug.lua
 
+
 "ripgrep config for nvim
 set grepprg=rg\ --vimgrep
 set grepformat=%f:%l:%c:%m
@@ -59,3 +60,6 @@ EOF
 
 " Colorscheme, must come after plugin setup
 colorscheme kanagawa-dragon
+
+"my custom CopilotChat plugin, has to be loaded after lazy
+source ~/.config/nvim/keybinds/block_to_ccwindow.lua

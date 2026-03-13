@@ -53,5 +53,8 @@ nnoremap <leader>w <C-w>
 "cheat.sh
 nnoremap <leader>ch :Cheat<Cr>
 
-
+lua << EOF
+-- Set copilot chat window keybinds
+vim.api.nvim_set_keymap("n", "<leader>cw", ":CopilotChatToggle<CR>", { noremap = true, silent = true })
+EOF
 

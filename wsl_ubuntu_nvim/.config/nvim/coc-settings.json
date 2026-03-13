@@ -2,6 +2,12 @@
 {
     "coc.preferences.bracketEnterImprove": true,
     "signature.enable": true,
-    "signature.target": "float"
+    "signature.target": "float",
+
+    "Lua.runtime.version": "LuaJIT",
+    "Lua.diagnostics.globals": ["vim"],
+    "Lua.workspace.library": [
+        "/home/tre3iii/.local/share/bob/v0.11.6/share/nvim/runtime/lua"
+    ]
 }
 

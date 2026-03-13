@@ -1,0 +1,3 @@
+
+/home/tre3iii/.local/share/bob/v0.11.6/share/nvim/runtime
+
