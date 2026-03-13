@@ -30,6 +30,24 @@ return {
         end
       end, { expr = true, silent = true, noremap = true })
 
+      -- C-l: scroll down in CoC float (hover docs, signature help)
+      vim.keymap.set({'n', 'i'}, '<C-l>', function()
+        if vim.fn['coc#float#has_scroll']() == 1 then
+          return vim.fn['coc#float#scroll'](1)
+        else
+          return vim.api.nvim_replace_termcodes('<C-l>', true, true, true)
+        end
+      end, { expr = true, silent = true, noremap = true })
+
+      -- C-h: scroll up in CoC float (hover docs, signature help)
+      vim.keymap.set({'n', 'i'}, '<C-h>', function()
+        if vim.fn['coc#float#has_scroll']() == 1 then
+          return vim.fn['coc#float#scroll'](0)
+        else
+          return vim.api.nvim_replace_termcodes('<C-h>', true, true, true)
+        end
+      end, { expr = true, silent = true, noremap = true })
+
       -- Enter: confirm completion if popup visible, otherwise insert
       -- newline and call coc#on_enter() for bracketEnterImprove
       vim.keymap.set('i', '<CR>', function()

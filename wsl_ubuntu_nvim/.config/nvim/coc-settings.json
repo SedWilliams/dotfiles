@@ -1,5 +1,7 @@
 
 {
-    "coc.preferences.bracketEnterImprove": true
+    "coc.preferences.bracketEnterImprove": true,
+    "signature.enable": true,
+    "signature.target": "float"
 }
 
