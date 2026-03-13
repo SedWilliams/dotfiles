@@ -21,6 +21,12 @@ return {
           tool = '🔧 Tool',
       },
       seperator = '━━',
+      window = {
+          border = 'rounded',
+          layout = 'float',
+          zindex = 0,
+          blend = 5,
+      },
     },
   },
 }
