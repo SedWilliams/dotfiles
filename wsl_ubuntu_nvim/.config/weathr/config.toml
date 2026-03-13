@@ -1,0 +1,12 @@
+
+[location]
+display = "city"
+
+auto = true
+
+[units]
+temperature = "fahrenheit"
+
+wind_speed = "mph"
+
+precipitation = "inch"
